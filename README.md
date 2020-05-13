@@ -1,6 +1,4 @@
-# Project Title
-
-Front-end Web Development - BSC20919 
+# Front-end Web Development - BSC20919 
 20052 - Gustavo Henrique de Souza
 
 ## Getting Started / Objective 
