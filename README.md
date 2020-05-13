@@ -49,7 +49,7 @@ For me the most difficult was the Library and some addicional scripts added to t
 
 ## Author
 
-* **Gustavo de Souza** - *Initial work* - [shyzinn](https://github.com/shyzinn qw)
+* **Gustavo de Souza** - *Initial work* - [shyzinn](https://github.com/shyzinn)
 
 ## License
 
