@@ -32,12 +32,14 @@ For me the most difficult was the Library and some addicional scripts added to t
 
 ## Built With
 
+* [Three.JS](https://threejs.org/) -  JavaScript 3D library
 * [BOOTSTRAP](https://getbootstrap.com/) - The web framework used
 * [JQUERY](https://jquery.com/) - 3.4.1
 * [POPPER](https://popper.js.org/) - Tooltip & Popover Positioning Engine
 * [Font Awnsome](https://fontawesome.com/) - Font Frame Work
 * [CSS]
 * [Javascript]
+* [HTML]
 
 
 ## Versioning
