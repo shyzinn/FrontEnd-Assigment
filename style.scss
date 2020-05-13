@@ -6,7 +6,10 @@ body {
 
 }
 */
-
+canvas {
+	
+	width: 100% !important;
+}
 
 /* Cool infinite background scrolling animation.
  * Twitter: @kootoopas
@@ -536,10 +539,17 @@ body {
 
 }
 
-.typewrite
+.typewrite_size
 
 {
-	margin-top: auto;
+	margin-top: 5% !important;
+	left: 40%;
 	
+	
+}
+
+.canvas {
+	
+	width: 100% !important;
 	
 }

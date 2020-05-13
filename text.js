@@ -40,7 +40,7 @@ var TxtType = function(el, toRotate, period) {
     };
 
     window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
+        var elements = document.getElementsByClassName('typewrite_size');
         for (var i=0; i<elements.length; i++) {
             var toRotate = elements[i].getAttribute('data-type');
             var period = elements[i].getAttribute('data-period');
@@ -51,6 +51,6 @@ var TxtType = function(el, toRotate, period) {
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        css.innerHTML = ".typewrite_size > .wrap { border-right: 0.08em solid #000000 }";
         document.body.appendChild(css);
     };
