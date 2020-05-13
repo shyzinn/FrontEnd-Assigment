@@ -5,240 +5,193 @@
 
 	<title>Gustavo Resume</title>
 
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.scss">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="/jsfile.js"></script>
+	<!-- <script type="text/javascript" src="/jsfile.js"></script> -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
 	<!---------Header Section-------------->
-<div id="home_wave">
+	<div id="home_wave">
 
-	<section id="header">
+		<section id="header" class="draw-pattern">
 
+			<div class="container text-center">
 
+				<div class="user-box">
 
+					<img src="img/me1.jfif">
 
+					<br>
+						<br>
+						<br>
 
-	<div class="container text-center">
-
-			<div class="user-box">
-
-				<img src="img/me.png">
-
-
-				<h1>Gustavo de Souza</h1>
-				<p> Senior IT Support Engineer</p>
-
-			</div>
-		
-		<div class="scroll-btn">
-			<div class="scroll-bar"> <a href=""><span> </span></a>
+					<h1>
+						<a href="" class="typewrite" data-period="500" data-type='[ "Hi, Im Gustavo de Souza.", "I am Creative.", "I Love Design.", "I Love to Develop." , "I Love to Support." ]'>
+							<span class="wrap"></span>
+						</a>
+					</h1>
 
 
-			</div>
-
-
-		</div>
-
-		</div>
-	</section>
-
-	<!--My info section-->
-
-	<section id="user-info">
-		<div clas="nav-bar">
-			<nav class="navbar navbar-expand-lg">
-				<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<i class="fa fa-bars"></i>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">HOME</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">ABOUT ME</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">RESUME</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="#">SERVICES</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="#">CONTACT</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-
-		<!--About-->
-
-		<div class="about container" id="about">
-			<div class="row">
-				<div class="col-md-6 text-center">
-					<img src="img/me.png" class="profile-img">
+					<!--					<h1>Gustavo de Souza</h1>-->
+					<!--					<p> Senior IT Support Engineer</p>-->
 
 				</div>
 
-				<div class="col-md-6">
-
-					<h3>WHO AM I?</h3>
-
-					<p> 12 years of experience working with IT area and Design. Able to effectively coordinate tasks in order to
-						accomplish projects with timeliness and creativity.</p>
+				<div class="scroll-btn">
+					<div class="scroll-bar"> <a href="#about"><span> </span></a>
 
 
-					<div class="skills-bar">
-						<p>IT Infrastructure</p>
-						<div class="progress">
-							<div class="progress-bar" style="width: 80%;">80%</div>
-
-
-
-						</div>
-						<p>IT Management</p>
-						<div class="progress">
-							<div class="progress-bar" style="width: 65%;">65%</div>
-
-
-
-						</div>
-						<p>Coding</p>
-						<div class="progress">
-							<div class="progress-bar" style="width: 35%;">35%</div>
-
-
-
-						</div>
-
-						<p>Service Desk</p>
-						<div class="progress">
-							<div class="progress-bar" style="width: 100%;">100%</div>
-
-
-
-						</div>
-						<p>Graphic Design</p>
-						<div class="progress">
-							<div class="progress-bar" style="width: 90%;">90%</div>
-
-
-
-						</div>
 					</div>
+
+
 				</div>
 
 			</div>
+		</section>
 
-		</div>
+		<!--My info section-->
 
+		<section id="user-info">
+			<div clas="nav-bar">
+				<nav class="navbar navbar-expand-lg">
+					<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fa fa-bars"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#top">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">ABOUT ME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#resume">RESUME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link " href="#services">SERVICES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link " href="#contact">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 
-		<!--RESUME-->
+			<!--About-->
 
-		<div class="resume" id="resume">
-			<div class="container">
+			<div class="about container" id="about">
 				<div class="row">
+					<div class="col-md-6 text-center">
+						<img src="img/me2.jpg" class="profile-img">
+
+					</div>
+
 					<div class="col-md-6">
 
-						<h3 class="text-center">My Experiences</h3>
-						<ul class="timeline">
-							<!--FIRST JOB-->
-							<li>
+						<h3>WHO AM I?</h3>
 
-								<h4><span>2020 - </span> IT Support Engineer</h4>
-
-								<p> Successfully unified domestic and international IT department's consolidation projects. Merger involved multiple locations, including regional warehouse and international offices. Integrated infrastructure with location specific resources globally accessible via VPN connections.
-									Managed vendor relationships for 20+ infrastructure and application support projects.
-									Created a staff handbook of all IT services while directing application support staff in creating end-user documentation of internal applications.
-									Provided project management, network administration and support for 500+ global company users under Multi-platform Environment with Mac and PC clients.
-									Achieved the highest level of productivity, handled over 1000 calls per month. Earned solid reputation for resolving complex issues and providing exceptional customer service.
-									Trained and assisted users with policies and procedures for PDA, mobile computing, and video conferencing systems.<br>
-									<b>Company</b> - Lantech IT Services<br>
-									<b>Duration</b> - Until present<br>
-									<b>Location</b> - Dublin - Ireland<br>
+						<p> 12 years of experience working with IT area and Design. Able to effectively coordinate tasks in order to
+							accomplish projects with timeliness and creativity.</p>
 
 
-							</li>
-
-							<!--SECOND JOB-->
-							<li>
-
-								<h4><span>2019 - </span> IT Support Engineer</h4>
-
-								<p> Responsible for supporting the company's SME clients at all levels as part of a helpdesk team. Ensuring that all hardware and software are configured and installed correctly. Duties: Responsible for networking, design, installation and maintenance services. Supporting users and network administrators over the telephone and by email. Maintain the companies network infrastructure. Networking and providing support for Windows, Macintosh and Linux issues. Configuration and testing of any new hardware and software. Travelling to client sites to help with installs, deployment, and troubleshooting. Management of the daily data backup and retrieval scheme. Installing and operating Windows desktop and server operating systems. TCP/IP networking and hardware maintenance and repair. Training new employees. Assistance with training of staff and compiling procedural documentation. Assisting the network manager with support requests. Ensure computer hardware is safe & complies with health and safety legislation. Applying patches in accordance with company procedures.<br>
-									<b>Company</b> - Mondelez Internacional Freelancer<br>
-									<b>Duration</b> - Until present<br>
-									<b>Location</b> - Rathmore, Count Kerry - Ireland<br>
-
-
-							</li>
+						<div class="skills-bar">
+							<p>IT Infrastructure</p>
+							<div class="progress">
+								<div class="progress-bar" style="width: 80%;">80%</div>
 
 
 
-							<!--Thirth JOB-->
-							<li>
-
-								<h4><span>2016 - </span> Sales Advisor and IT Management</h4>
-
-								<p> Sales Advisor performing customer service and merchandising duties on the sales department, customers contact through phone calls, emails, or direct contact. Sales abroad and given support to all agencies or partners from Brazil. IT Management, Network and Infrastructure.<br>
-									<b>Company</b> - Dublin College Advanced Studies<br>
-									<b>Duration</b> - Until Oct 2017<br>
-									<b>Location</b> - Dublin, Ireland<br>
-
-
-							</li>
+							</div>
+							<p>IT Management</p>
+							<div class="progress">
+								<div class="progress-bar" style="width: 65%;">65%</div>
 
 
 
-							<!--                 END OF JOB-->
+							</div>
+							<p>Coding</p>
+							<div class="progress">
+								<div class="progress-bar" style="width: 35%;">35%</div>
 
 
 
+							</div>
+
+							<p>Service Desk</p>
+							<div class="progress">
+								<div class="progress-bar" style="width: 100%;">100%</div>
 
 
-							<!--Fourth JOB-->
-							<li>
 
-								<h4><span>2016 - </span> S ales Advisor and IT Management</h4>
-
-								<p> Sales Advisor performing customer service and merchandising duties on the sales department, customers contact through phone calls, emails, or direct contact. Sales abroad and given support to all agencies or partners from Brazil. IT Management, Network and Infrastructure.<br>
-									<b>Company</b> - Dublin College Advanced Studies<br>
-									<b>Duration</b> - Until Oct 2017<br>
-									<b>Location</b> - Dublin, Ireland<br>
+							</div>
+							<p>Graphic Design</p>
+							<div class="progress">
+								<div class="progress-bar" style="width: 90%;">90%</div>
 
 
-							</li>
 
-
-						</ul>
-						<!--                 END OF JOB-->
+							</div>
+						</div>
 					</div>
 
+				</div>
 
-					<!--START EDUCATION-->
+			</div>
 
+			<!--SOCIAL MEDIA ICONS-->
+
+			<div class="social-icons">
+
+				<ul>
+
+						<a href="#">
+						<li><i class="fa fa-linkedin"></i> </li>
+					</a>
+				
+						<a href="#">
+						<li><i class="fa fa-facebook"></i> </li>
+					</a>
+					<a href="#">
+						<li><i class="fa fa-github"></i> </li>
+					</a>
+
+				</ul>
+
+			</div>
+
+			<!--RESUME-->
+
+			<div class="resume" id="resume">
+				<div class="container">
+					<div class="row">
 						<div class="col-md-6">
 
-							<h3 class="text-center">My Education</h3>
+							<h3 class="text-center">My Experiences</h3>
 							<ul class="timeline">
 								<!--FIRST JOB-->
 								<li>
 
-									<h4><span>2018 - </span> Bachelor of Computer Science</h4>
+									<h4><span>2020 - </span> IT Support Engineer</h4>
 
-									<p>Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.
-<br>
-										<b>Dorset College</b> 2 year<br>
+									<p> Successfully unified domestic and international IT department's consolidation projects. Merger involved multiple locations, including regional warehouse and international offices. Integrated infrastructure with location specific resources globally accessible via VPN connections.
+										Managed vendor relationships for 20+ infrastructure and application support projects.
+										Created a staff handbook of all IT services while directing application support staff in creating end-user documentation of internal applications.
+										Provided project management, network administration and support for 500+ global company users under Multi-platform Environment with Mac and PC clients.
+										Achieved the highest level of productivity, handled over 1000 calls per month. Earned solid reputation for resolving complex issues and providing exceptional customer service.
+										Trained and assisted users with policies and procedures for PDA, mobile computing, and video conferencing systems.<br>
+										<b>Company</b> - Lantech IT Services<br>
 										<b>Duration</b> - Until present<br>
 										<b>Location</b> - Dublin - Ireland<br>
 
@@ -250,7 +203,7 @@
 
 									<h4><span>2019 - </span> IT Support Engineer</h4>
 
-									<p> Responsible for supporting the company's SME clients at all levels as part of a helpdesk team. Ensuring that all hardware and software are configured and installed correctly. Duties: Responsible for networking, design, installation and maintenance services. Supporting users and network administrators over the telephone and by email. Maintain the companies network infrastructure. Networking and providing support for Windows, Macintosh and Linux issues. Configuration and testing of any new hardware and software. Travelling to client sites to help with installs, deployment, and troubleshooting. Management of the daily data backup and retrieval scheme. Installing and operating Windows desktop and server operating systems. TCP/IP networking and hardware maintenance and repair. Training new employees. Assistance with training of staff and compiling procedural documentation. Assisting the network manager with support requests. Ensure computer hardware is safe & complies with health and safety legislation. Applying patches in accordance with company procedures.<br>
+									<p> Responsible for supporting the company's SME clients at all levels as part of a helpdesk team. Ensuring that all hardware and software are configured and installed correctly. Duties: Responsible for networking, design, installation and maintenance services. Supporting users and network administrators over the telephone and by email. Maintain the companies network infrastructure. <br>
 										<b>Company</b> - Mondelez Internacional Freelancer<br>
 										<b>Duration</b> - Until present<br>
 										<b>Location</b> - Rathmore, Count Kerry - Ireland<br>
@@ -284,7 +237,61 @@
 								<!--Fourth JOB-->
 								<li>
 
-									<h4><span>2016 - </span> S ales Advisor and IT Management</h4>
+									<h4><span>2015 - </span> Manager of IT</h4>
+
+									<p> Management of the enterprise IT sector, support Linux and Windows servers and backup routines, hardware purchase and support to all users of the company.<br>
+										<b>Company</b> - Theo Consulting <br>
+										<b>Duration</b> - Until Oct 2015<br>
+										<b>Location</b> - Sao Paulo, Brazil<br>
+
+
+								</li>
+
+
+							</ul>
+							<!--                 END OF JOB-->
+						</div>
+
+
+						<!--START EDUCATION-->
+
+						<div class="col-md-6">
+
+							<h3 class="text-center">My Education</h3>
+							<ul class="timeline">
+								<!--FIRST JOB-->
+								<li>
+
+									<h4><span>2018 - </span> Bachelor of Computer Science</h4>
+
+									<p>Computer Science is the study of computers and computational systems. Unlike electrical and computer engineers, computer scientists deal mostly with software and software systems; this includes their theory, design, development, and application.
+										<br>
+										<b>University </b> - Dorset College - 2 year<br>
+										<b>Duration</b> - 2018 to 2021<br>
+										<b>Location</b> - Dublin - Ireland<br>
+
+
+								</li>
+
+								<!--SECOND JOB-->
+								<li>
+
+									<h4><span>2019 - </span> General English Course</h4>
+
+									<p> This course is designed for students who want to improve their overall level of English to communicate more fluently in work, travel and everyday life. You will work on improving the skills involved with speaking, listening, reading and writing, so that you can improve your comprehension and communicate more freely.<br>
+										<b>Institute</b> - Dorset College - 2 year<br>
+										<b>Duration</b> - 2016 - 2018 <br>
+										<b>Location</b> - Dublin, Ireland<br>
+
+
+								</li>
+
+
+
+								<!--Thirth JOB-->
+								<li>
+
+									<h4><span>2016 - </span> Sales Advisor and IT Management</h4>
 
 									<p> Sales Advisor performing customer service and merchandising duties on the sales department, customers contact through phone calls, emails, or direct contact. Sales abroad and given support to all agencies or partners from Brazil. IT Management, Network and Infrastructure.<br>
 										<b>Company</b> - Dublin College Advanced Studies<br>
@@ -293,6 +300,10 @@
 
 
 								</li>
+
+
+
+								<!--                 END OF JOB-->
 
 
 							</ul>
@@ -311,9 +322,111 @@
 
 
 			</div>
-		</div>
+	</div>
+	</div>
 
 	</section>
+
+	<!--	SERIVCES -->
+
+
+	<div class="services" id="services">
+		<div class="container">
+			<h1 class="text-center">My Offered Services</h1>
+			<p class="text-center">IT Consultant.<br>Analyzing a company's IT system and infrastructure.Diagnosing IT system problems, inefficiencies and weaknesses.
+				Planning a timeline for completion of projects.
+				Understanding a client's business needs.</p>
+
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="services-box">
+						<i class="fa fa-line-chart"></i><span>Marketing</span>
+						<p>Graphic Designer 5+ Experience Adobe Photoshop Adobe Illustrator, Adobe Indesign<br> Adobe Premiere Pro.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="services-box">
+						<i class="fa fa-laptop"></i><span>Graphics</span>
+						<p>Graphic Designer 5+ Experience Adobe Photoshop Adobe Illustrator, Adobe Indesign<br> Adobe Premiere Pro.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="services-box">
+						<i class="fa fa-rocket"></i><span>Development</span>
+						<p>Graphic Designer 5+ Experience Adobe Photoshop Adobe Illustrator, Adobe Indesign<br> Adobe Premiere Pro.</p>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!--   Contacts  -->
+
+
+	<div class="contact" id="contact">
+		<div class="container text-center">
+
+			<h1>Contact Me </h1>
+
+
+			<p class="text-center">If you are interested to hire me.<br>Check bellow !</p>
+			<div class="row">
+				<div class="col-md-4">
+
+					<i class="fa fa-phone"></i>
+					<p>+353 0830078178</p>
+
+				</div>
+				<div class="col-md-4">
+
+					<i class="fa fa-envelope"></i>
+					<p>20052@student.dorset-college.ie</p>
+
+
+
+				</div>
+
+				<div class="col-md-4">
+
+					<i class="fa fa-internet-explorer"></i>
+					<p>www.gdesouza.com</p>
+
+
+				</div>
+			</div>
+			<button type="button" class="btn btn-primary"><i class="fa fa-download"></i> Resume</button>
+
+			<button type="button" class="btn btn-primary"><i class="fa fa-briefcase"></i> Hire me! </button>
+		</div>
+		<div class="footer text-center">
+
+			<p>Made with <i class="fa fa-heart-o"></i> by Gustavo de Souza 20052.</p>
+
+
+		</div>
+	</div>
+
+	</section>
+
+	<!--THREE JS-->
+	<script src="three.js"></script>
+
+	<!--SMOOTH SCROOL-->
+	<script src="smooth-scroll.js"></script>
+
+	<script>
+		
+		var scroll = new SmoothScroll('a[href*="#"]');
+
+	</script>
+<!--TEXT ANIMATED-->
+
+	<script src="text.js"></script>
 
 
 </body>
